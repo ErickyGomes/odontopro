@@ -282,7 +282,7 @@ export function Header() {
                     <SheetContent side="right" className="w-[280px] p-0 flex flex-col">
                         <SheetTitle className="sr-only">Menu de Navegação</SheetTitle>
                         <div className="h-16 border-b border-gray-200 flex items-center px-4">
-                            <h2 className="text-lg font-semibold text-gray-800">OdontoPRO</h2>
+                            <h2 className="text-lg font-semibold text-gray-800">Odonto<span className="text-emerald-500">PRO</span></h2>
                         </div>
                         <div className="flex-1 overflow-y-auto">
                             <MobileNavigationContent onLinkClick={() => setIsMobileOpen(false)} />
